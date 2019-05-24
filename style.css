@@ -58,39 +58,51 @@ section {
 }
 
 #full {
+    position: absolute;
+    top: 200px;
+    left: 80;
     width: 50%;
     overflow: auto;
-    background-color: whitesmoke;
+    background-color: grey;
     clear: both;
-    color: grey;
+    color: whitesmoke;
     box-sizing: border-box;
 	height: 275px;
-	margin: 20px auto 10px auto;
-	padding: 20px 10px 10px 10px;
+	margin: 0px auto 10px 100px;
+    padding: 20px 10px 10px 10px;
+
 }
 
 article {
     width: 100%;
-    background-color: green;
+    background-color: whitesmoke;
     color: grey;
-    height: 110px;
+    height: 210px;
 }
 
 #topRow {
-    width:100%;
+    position: absolute;
+    top: 60px;
+    left: 80;
+    margin: 0px auto 10px 30px;
+    width: 90%;
     overflow: auto;
-    background-color: blue;
+    background-color: grey;
     clear: both;
-    color: grey;
+    color: whitesmoke;
     height: 40px;
 }
 
 #bottomRow {
-    width: 100%;
+    position: absolute;
+    top: 120px;
+    left: 80;
+    margin: 0px auto 10px 30px;
+    width: 90%;
     overflow: auto;
-    background-color: blue;
+    background-color: grey;
     clear: both;
-    color: grey;
+    color: whitesmoke;
     height: 40px;
 }
 
